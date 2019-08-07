@@ -376,7 +376,7 @@ const smartInput = (event, fieldIndex, fields) =>{
 				appState.cardDigits[fieldIndex].push(inputValue);
 			}
 			else {
-				let currentPosition = fieldTag.selectionStart + 1 ;
+				let currentPosition = fieldTag.selectionStart;
 				appState.cardDigits[fieldIndex].splice(currentPosition, 0, inputValue);
 			}
 
